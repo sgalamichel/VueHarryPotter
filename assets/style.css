@@ -1,0 +1,30 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(.//img/universal-studios-ge10cdbd33_1920.jpg);
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+:root{
+    --bs-yellow: #f2db10;
+    --bs-purple: #1f0c42;
+}
+
+h1, .p-foot{
+    color:var(--bs-yellow);
+}
+p{
+    color:var(--bs-purple);
+}
+
+button{
+    text-decoration: none;
+}
